@@ -45,8 +45,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-
-  s.source_files = 'Classes'
+  
+  s.swift_versions = ['4.0', '4.2', '5.0']
+  
+  s.source_files = 'Sources/**/*.swift'
   s.resources = "youtube-ios-player-helper/Assets.bundle"
 
   s.ios.exclude_files = 'Classes/osx'

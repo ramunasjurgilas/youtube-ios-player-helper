@@ -22,8 +22,8 @@
 		4D69941F18E22EE10073680F /* SingleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69941A18E22EE10073680F /* SingleVideoViewController.m */; };
 		4D69942018E22EE10073680F /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69941C18E22EE10073680F /* PlaylistViewController.m */; };
 		4D69942218E22F000073680F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69942118E22F000073680F /* main.m */; };
-		A1667DB27CF64FC392012064 /* libPods-youtube-player-ios-exampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FE8C7A7A914485BBD9A3D4 /* libPods-youtube-player-ios-exampleTests.a */; };
-		A732EFB889AD44979951554A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 614CB957CD094425884C83E1 /* libPods.a */; };
+		5360288991E0A6133B693995 /* Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D652AE9CB050C1FFD28660 /* Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework */; };
+		738E11E054830D469970314A /* Pods_youtube_player_ios_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27A3AC3F404E2D35A622D99 /* Pods_youtube_player_ios_example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20332B514453FD330C14CB97 /* Pods-youtube-player-ios-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-example/Pods-youtube-player-ios-example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B893256A097B7270EE18710 /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40D652AE9CB050C1FFD28660 /* Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418AA4F356CFA6C428837FDB /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		41DE6A7D49F386BF08C18468 /* Pods-youtube-player-ios-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-exampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-exampleTests/Pods-youtube-player-ios-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D6993DE18E22E0C0073680F /* youtube-player-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-player-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6993E118E22E0C0073680F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +63,11 @@
 		4D69941B18E22EE10073680F /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
 		4D69941C18E22EE10073680F /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
 		4D69942118E22F000073680F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		614CB957CD094425884C83E1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		97FE8C7A7A914485BBD9A3D4 /* libPods-youtube-player-ios-exampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-youtube-player-ios-exampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1A73947F21B4AC48269A4E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A33CC11F5E5B159D09ADCB5D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B27A3AC3F404E2D35A622D99 /* Pods_youtube_player_ios_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youtube_player_ios_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EAC06935E4E004160720A4 /* Pods-youtube-player-ios-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-exampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-exampleTests/Pods-youtube-player-ios-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F84D05D9B32AD3F7687516FB /* Pods-youtube-player-ios-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youtube-player-ios-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-youtube-player-ios-example/Pods-youtube-player-ios-example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,7 @@
 				4D6993E418E22E0C0073680F /* CoreGraphics.framework in Frameworks */,
 				4D6993E618E22E0C0073680F /* UIKit.framework in Frameworks */,
 				4D6993E218E22E0C0073680F /* Foundation.framework in Frameworks */,
-				A732EFB889AD44979951554A /* libPods.a in Frameworks */,
+				738E11E054830D469970314A /* Pods_youtube_player_ios_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +89,7 @@
 				4D69940118E22E0C0073680F /* XCTest.framework in Frameworks */,
 				4D69940318E22E0C0073680F /* UIKit.framework in Frameworks */,
 				4D69940218E22E0C0073680F /* Foundation.framework in Frameworks */,
-				A1667DB27CF64FC392012064 /* libPods-youtube-player-ios-exampleTests.a in Frameworks */,
+				5360288991E0A6133B693995 /* Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +123,8 @@
 				4D6993E318E22E0C0073680F /* CoreGraphics.framework */,
 				4D6993E518E22E0C0073680F /* UIKit.framework */,
 				4D69940018E22E0C0073680F /* XCTest.framework */,
-				614CB957CD094425884C83E1 /* libPods.a */,
-				97FE8C7A7A914485BBD9A3D4 /* libPods-youtube-player-ios-exampleTests.a */,
+				B27A3AC3F404E2D35A622D99 /* Pods_youtube_player_ios_example.framework */,
+				40D652AE9CB050C1FFD28660 /* Pods_youtube_player_ios_example_youtube_player_ios_exampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,6 +181,10 @@
 				A33CC11F5E5B159D09ADCB5D /* Pods.release.xcconfig */,
 				C9EAC06935E4E004160720A4 /* Pods-youtube-player-ios-exampleTests.debug.xcconfig */,
 				41DE6A7D49F386BF08C18468 /* Pods-youtube-player-ios-exampleTests.release.xcconfig */,
+				20332B514453FD330C14CB97 /* Pods-youtube-player-ios-example.debug.xcconfig */,
+				F84D05D9B32AD3F7687516FB /* Pods-youtube-player-ios-example.release.xcconfig */,
+				2B893256A097B7270EE18710 /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.debug.xcconfig */,
+				418AA4F356CFA6C428837FDB /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -188,11 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D69941018E22E0C0073680F /* Build configuration list for PBXNativeTarget "youtube-player-ios-example" */;
 			buildPhases = (
+				C26F119D673CA5592FE5941B /* [CP] Check Pods Manifest.lock */,
 				FE80856E09B8459AAE18655D /* Check Pods Manifest.lock */,
 				4D6993DA18E22E0C0073680F /* Sources */,
 				4D6993DB18E22E0C0073680F /* Frameworks */,
 				4D6993DC18E22E0C0073680F /* Resources */,
-				8D2FF9AA090848A181BEBD44 /* Copy Pods Resources */,
+				4716488D7010C50148D42FA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,11 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D69941318E22E0C0073680F /* Build configuration list for PBXNativeTarget "youtube-player-ios-exampleTests" */;
 			buildPhases = (
+				E38A83CE06E72131135B967F /* [CP] Check Pods Manifest.lock */,
 				40A67310F9C54613B3075C8C /* Check Pods Manifest.lock */,
 				4D6993FB18E22E0C0073680F /* Sources */,
 				4D6993FC18E22E0C0073680F /* Frameworks */,
 				4D6993FD18E22E0C0073680F /* Resources */,
-				B16AF54440614B7BBEA8906E /* Copy Pods Resources */,
+				284BA7966A7576C7487CAF74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +289,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		284BA7966A7576C7487CAF74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		40A67310F9C54613B3075C8C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,34 +324,66 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8D2FF9AA090848A181BEBD44 /* Copy Pods Resources */ = {
+		4716488D7010C50148D42FA5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youtube-player-ios-example/Pods-youtube-player-ios-example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-youtube-player-ios-example/Pods-youtube-player-ios-example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B16AF54440614B7BBEA8906E /* Copy Pods Resources */ = {
+		C26F119D673CA5592FE5941B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-youtube-player-ios-example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-youtube-player-ios-exampleTests/Pods-youtube-player-ios-exampleTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38A83CE06E72131135B967F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-youtube-player-ios-example-youtube-player-ios-exampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE80856E09B8459AAE18655D /* Check Pods Manifest.lock */ = {
@@ -463,7 +525,7 @@
 		};
 		4D69941118E22E0C0073680F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F1A73947F21B4AC48269A4E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 20332B514453FD330C14CB97 /* Pods-youtube-player-ios-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -479,7 +541,7 @@
 		};
 		4D69941218E22E0C0073680F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33CC11F5E5B159D09ADCB5D /* Pods.release.xcconfig */;
+			baseConfigurationReference = F84D05D9B32AD3F7687516FB /* Pods-youtube-player-ios-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -495,7 +557,7 @@
 		};
 		4D69941418E22E0C0073680F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9EAC06935E4E004160720A4 /* Pods-youtube-player-ios-exampleTests.debug.xcconfig */;
+			baseConfigurationReference = 2B893256A097B7270EE18710 /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/youtube-player-ios-example.app/youtube-player-ios-example";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -518,7 +580,7 @@
 		};
 		4D69941518E22E0C0073680F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DE6A7D49F386BF08C18468 /* Pods-youtube-player-ios-exampleTests.release.xcconfig */;
+			baseConfigurationReference = 418AA4F356CFA6C428837FDB /* Pods-youtube-player-ios-example-youtube-player-ios-exampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/youtube-player-ios-example.app/youtube-player-ios-example";
 				FRAMEWORK_SEARCH_PATHS = (
